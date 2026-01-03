@@ -5,11 +5,12 @@ The focus is on learning how to **build, train, and evaluate neural networks wit
 
 You will start with a simple baseline neural network and gradually move to a small custom CNN, observing how different training choices affect performance and stability.  
 The goal is **conceptual understanding and hands-on experience**, not achieving state-of-the-art accuracy.
+
 ---
 
 ## To-Do List  
-### Hands-On Machine Learning — Chapters 10 & 11  
-### Intel Image Classification (Simple Custom NN)
+- Hands-On Machine Learning 3rd Edition — Chapters 10 & 11  
+- Intel Image Classification (Simple Custom NN)
 
 ---
 
