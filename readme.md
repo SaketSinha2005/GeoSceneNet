@@ -8,8 +8,8 @@ The goal is **conceptual understanding and hands-on experience**, not achieving 
 ---
 
 ## To-Do List  
-## Hands-On Machine Learning — Chapters 10 & 11  
-## Intel Image Classification (Simple Custom NN / CNN)
+### Hands-On Machine Learning — Chapters 10 & 11  
+### Intel Image Classification (Simple Custom NN)
 
 ---
 
