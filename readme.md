@@ -17,9 +17,9 @@ The goal is **conceptual understanding and hands-on experience**, not achieving 
 ## 🔹 Phase 1 — Chapter 10: Introduction to ANN with Keras
 
 ### 1 Dataset ingestion (Keras-style)
-- [ ] Load Intel dataset using `image_dataset_from_directory`
-- [ ] Set `image_size` and `batch_size`
-- [ ] Inspect class names and batch shapes
+- [x] Load Intel dataset using `image_dataset_from_directory`
+- [x] Set `image_size` and `batch_size`
+- [x] Inspect class names and batch shapes
 
 ---
 
