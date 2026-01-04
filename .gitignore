@@ -2,3 +2,7 @@
 .venv
 
 files/.ipynb_checkpoints
+
+data/*
+!data/example_train
+!data/example_test
