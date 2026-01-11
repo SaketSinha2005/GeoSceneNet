@@ -3,7 +3,7 @@
 This to-do list is designed to practice **Chapters 10 and 11 of *Hands-On Machine Learning*** using the **Intel Image Classification dataset**.  
 The focus is on learning how to **build, train, and evaluate neural networks with Keras** (Chapter 10) and understanding **how to train deep networks effectively** using proper initialization, regularization, normalization, and optimization techniques (Chapter 11).
 
-You will start with a simple baseline neural network and gradually move to a small custom CNN, observing how different training choices affect performance and stability.  
+We will start with a simple baseline neural network and gradually move to a small custom CNN, observing how different training choices affect performance and stability.  
 The goal is **conceptual understanding and hands-on experience**, not achieving state-of-the-art accuracy.
 
 ---
@@ -24,36 +24,29 @@ The goal is **conceptual understanding and hands-on experience**, not achieving 
 ---
 
 ### 2 First working Keras model (baseline MLP)
-- [ ] Build model using **Sequential API**
-- [ ] Layers:
+- [x] Build model using **Sequential API**
+- [x] Layers:
   - `Flatten`
   - `Dense(128, activation="relu")`
+  - `Dense(64, activation="relu")`
   - `Dense(6, activation="softmax")`
-- [ ] Compile with:
+- [x] Compile with:
   - `SparseCategoricalCrossentropy`
   - `Adam`
   - `accuracy`
 
 ---
 
-### 3️ Train, evaluate, and save the model
-- [ ] Train model using `model.fit`
-- [ ] Validate during training
-- [ ] Evaluate on test set
-- [ ] Save model using `model.save`
-- [ ] Reload the model and re-evaluate
+### 3️ Train and save the model
+- [x] Train model using `model.fit`
+- [x] Validate during training
+- [x] Save model using `model.save`
 
 ---
 
 ### 4️ Functional API practice
 - [ ] Rebuild the same model using the **Functional API**
 - [ ] Verify similar performance to Sequential model
-
----
-
-### 5️ Customization basics (light)
-- [ ] Try a different optimizer or loss function
-- [ ] (Optional) Add a simple custom metric
 
 ---
 
