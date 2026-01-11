@@ -1,9 +1,11 @@
 #excluded files
 .venv
 
-files/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
 
 Src/__pycache__
+
+
 
 data/*
 !data/example_train
