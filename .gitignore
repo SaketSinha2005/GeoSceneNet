@@ -3,6 +3,8 @@
 
 files/.ipynb_checkpoints
 
+Src/__pycache__
+
 data/*
 !data/example_train
 !data/example_test
