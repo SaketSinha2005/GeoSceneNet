@@ -26,9 +26,14 @@ The goal is **conceptual understanding and hands-on experience**, not achieving 
 ### 2 First working Keras model (baseline MLP)
 - [x] Build model using **Sequential API**
 - [x] Layers:
+  - `Normalized`
   - `Flatten`
   - `Dense(128, activation="relu")`
   - `Dense(64, activation="relu")`
+  - `Dense(64, activation="relu")`
+  - `Dense(32, activation="relu")`
+  - `Dense(32, activation="relu")`
+  - `Dense(16, activation="relu")`
   - `Dense(6, activation="softmax")`
 - [x] Compile with:
   - `SparseCategoricalCrossentropy`
@@ -45,8 +50,8 @@ The goal is **conceptual understanding and hands-on experience**, not achieving 
 ---
 
 ### 4️ Functional API practice
-- [ ] Rebuild the same model using the **Functional API**
-- [ ] Verify similar performance to Sequential model
+- [x] Rebuild the same model using the **Functional API**
+- [x] Verify similar performance to Sequential model
 
 ---
 
