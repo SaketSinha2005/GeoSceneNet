@@ -1,12 +1,15 @@
 #excluded files
-.venv
 
-notebooks/.ipynb_checkpoints
+# virtual env
+.venv/
 
-Src/__pycache__
+# jupyter
+**/.ipynb_checkpoints/
 
+# python
+__pycache__/
 
-
+# data
 data/*
-!data/example_train
-!data/example_test
+!data/example_train/
+!data/example_test/
